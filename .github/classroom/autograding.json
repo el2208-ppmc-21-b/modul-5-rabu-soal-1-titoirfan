@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "01",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "5\r\n1 2 3 4 5\r\n6\r\n4",
+      "output": "Quadruplet Don't Exists",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "02",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "5\r\n1 2 3 4 5\r\n12\r\n4",
+      "output": "Quadruplet Exists",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "03",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "5\r\n1 2 3 4 5\r\n13\r\n3",
+      "output": "Triplet Don't Exists",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "04",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "5\r\n1 2 3 4 5\r\n6\r\n3",
+      "output": "Triplet Exists",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "05",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "5\r\n1 2 3 4 5\r\n12\r\n0",
+      "output": "Both Exists",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "06",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "6\r\n1 3 5 7 9 11\r\n27\r\n0",
+      "output": "Only Triplet Exists",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "07",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "6\r\n1 3 5 7 9 11\r\n16\r\n0",
+      "output": "Only Quadruplet Exists",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "08",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "6\r\n1 3 5 7 9 11\r\n100\r\n0",
+      "output": "Both Don't Exists",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "09",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "2\r\n1234 5678\r\n6912\r\n0",
+      "output": "Both Don't Exists",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "0",
+      "output": "Array Size Must be Bigger than 0",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
